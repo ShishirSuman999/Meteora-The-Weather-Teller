@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #101010;
+    color: #f8f8f8;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.weather-input {
+    width: 25%;
+    position: fixed;
+    inset: 0;
+    background-color: black;
+    color: #f8f8f8;
+    padding: 1rem 2.5rem;
+}
+
+.weather-icon {
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    backdrop-filter: blur(50px);
+    display: block;
+    height: 20%;
+    margin: 1rem auto;
+}
+
+.city {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.input-group input {
+    background-color: #f8f8f8;
+    text-transform: capitalize;
+    padding: 1rem;
+    font-size: 15px;
+    border-radius: 6px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.input-group .converter {
+    position: absolute;
+    right: 45px;
+    font-size: 18px;
+    color: grey;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.input-group .fa-magnifying-glass {
+    position: absolute;
+    right: 15px;
+    color: grey;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.weather-output {
+    width: 75%;
+    position: fixed;
+    inset: 0;
+    margin-left: 30%;
+    padding: 2rem;
+    overflow: auto;
+}
+
+.weather-input .feelslike,
+.weather-input .description,
+.weather-input .date,
+.weather-input .city {
+    padding: 10px 0;
+}
+
+.temperature {
+    font-size: 3.5rem;
+    text-align: center;
+    display: flex;
+    font-weight: bold;
+}
+
+.heading {
+    margin-bottom: 2rem;
+}
+
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-auto-flow: row;
+    row-gap: 3rem;
+    column-gap: 3rem;
+}
+
+.highlights div {
+    height: 200px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* background-color: rgb(135, 135, 235); */
+    background-color: #202020;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.highlights i {
+    font-size: 45px;
+}
+
+.sun span {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
