@@ -2,6 +2,10 @@
 
 Meteora is a sleek and responsive weather web application that provides real-time weather information for any city around the world. It uses the OpenWeatherMap API to fetch accurate and up-to-date weather data.
 
+## 🌐 Live Demo
+
+🔗 **Try Meteora here:** [https://shishirsuman999.github.io/Meteora-The-Weather-Teller/](https://shishirsuman999.github.io/Meteora-The-Weather-Teller/)
+
 ## 🌟 Features
 
 - 🔍 City-Based Weather Search
