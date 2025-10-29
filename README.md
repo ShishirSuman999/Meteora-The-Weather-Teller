@@ -52,7 +52,7 @@ Meteora is a sleek and responsive weather web application that provides real-tim
 Meteora-The-Weather-Teller/
 ├── index.html           # Main HTML file
 ├── style.css            # Styling file
-├── script.js            # Main JavaScript file
+└── script.js            # Main JavaScript file
 ```
 
 ## 📦 Dependencies
